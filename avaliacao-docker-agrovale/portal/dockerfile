@@ -1,0 +1,7 @@
+FROM nginx:1.27-alpine
+
+LABEL aluno="João Pedro de França Maciel - 2628530"
+
+COPY html/ /usr/share/nginx/html/
+
+EXPOSE 80
